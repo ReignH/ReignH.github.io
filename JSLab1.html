@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- This is an example of an HTML file utilizing Internal JS -->
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>JS_Assign1-Mablibs</title>
+
+<style>
+  span{
+    color:red;
+  }
+  </style>
+</head>
+
+<body>
+	<h2>Demo JavaScript Innertext</h2>
+
+	<h3>Demo1</h3>
+	<p id="demo1">Hi  </p>
+
+	<h3>Demo2</h3>
+
+	<p id="demo2">Hi my name is </p>
+
+	<h3>Demo3</h3>
+
+	<p id="demo3">Heya! </p>
+<br><br><br><br><br>
+	<h3>MadLib - This the assignment</h3>
+
+<!-- Extend the Madlib so that it has at least 8 different words-->
+<p> Here's a madlib about a kid named <span id = "name1">____</span>  who had an imaginary friend <span id = "name2"> ____</span>. One day the two of them went up a hill and found a pot of <span id = "noun1"> _____ </span>. 
+They got hungry and ate <span id = "noun2">lemons</span> off of a tree. 
+They traveled from <span id = "noun3"> New York</span> to England. 
+A guy named <span id = "noun4"> Jack</span> helped them cash the pot of goods.
+ Early<span id = "noun5"> Monday</span> moring they recieved $100,000 in cash for cashing the pot of goods.
+They saw a white <span id="noun6"> horse</span> and got on it to ride to the nearest train station. A couple train rides later, they arrived back in New York. <span id="noun7"> Grey</span> clouds of smoke filled the air.
+They wondered what would they do with the money? they both agreed on donating half of their money to <span id="noun8"> st. jude children's hospital</span> They then took the rest of the money and brought a <span id="noun9">mansion</span>
+</p>
+
+
+
+
+
+
+
+
+	<script>  //The Javascript goes in this section below 
+    
+//demo 1 shows replacement of HTML text
+document.getElementById("demo1").innerHTML = "Hello World!";
+
+//demo 2 shows concatenation of HTML text
+document.getElementById("demo2").innerHTML += "dr og";
+
+//demo 3 shows a prompt which stores info as a variable
+//demo 3 shows a prompt which stores info as a variable
+
+//var name = prompt("Please enter your name");
+
+//document.getElementById("demo3").innerHTML = "Hello " + name + "! How are you today?";
+
+
+
+//Put the Madlib JS Code below here. Extend this code so that asks for 8 different inputs and prints them all out
+
+
+var name1 = prompt("Give me a name");
+var name2 = prompt("Give me another name");
+var noun1 = prompt("Give me an appropriate object");
+var noun2 = prompt("Give me something a fruit");
+var noun3 = prompt("Give me a city");
+var name4 = prompt("Give me a name");
+var noun5 = prompt("Give me a day of the week");
+var noun6 = prompt("Give me a large animal");
+var noun7 = prompt("Give me a neutral color");
+var noun8 = prompt("Give me a brand or organiztion you would donate to");
+var noun9 = prompt("Give me a something worth lots of money");
+
+
+document.getElementById("name1").innerHTML = name1;
+document.getElementById("name2").innerHTML = name2;
+document.getElementById("noun1").innerHTML = noun1;
+
+
+	
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </script>
+
+
+</body>
+
+</html>
